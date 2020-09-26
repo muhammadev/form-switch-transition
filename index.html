@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign In Form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin">
+        <h3>Sign In</h3>
+        <form>
+          <div class="npt-group">
+            <label for="name">name or email</label>
+            <input type="text" id="name">
+          </div>
+          <div class="npt-group">
+            <label for="password">password</label>
+            <input type="password" id="password">
+          </div>
+          <div class="npt-group">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+        <hr>
+        <p>you don't have an account? <a href="#" id="open-signup">sign up</a></p>
+      </div>
+      <div class="signup">
+        <h3>Sign Up</h3>
+        <form>
+          <div class="name-group">
+            <div class="npt-group">
+              <label for="first-name">first name</label>
+              <input type="text" id="first-name">
+            </div>
+            <div class="npt-group">
+              <label for="last-name">last name</label>
+              <input type="text" id="last-name">
+            </div>
+          </div>
+          <div class="npt-group">
+            <label for="email">email</label>
+            <input type="email" id="email">
+          </div>
+          <div class="npt-group">
+            <label for="password">password</label>
+            <input type="password" id="password">
+          </div>
+          <div class="npt-group checkbox-group">
+            <input type="checkbox" name="privacy-policy" id="privacy-policy">
+            <label for="privacy-policy">I've read and understand <a href="#">Privacy Policy</a></label>
+          </div>
+          <div class="npt-group">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+        <hr>
+        <p>have an account? <a href="#" id="open-signin">sign in</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
